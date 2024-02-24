@@ -14,21 +14,31 @@ const Navbar = () => {
                 <NavLink to="/service">Service</NavLink>
             </li>
             <li>
-                <NavLink to="/procesando">EnProceso</NavLink>
+                <NavLink to="/about">About</NavLink>
             </li>
-            <li>pagina 01</li>
-            <li>pagina 02</li>
+            <li>en breve...</li>
+
         </ul>
 
 
         <ul className="flex items-center gap-3 cursor-pointer">
             <li className=" text-black/60">micorreo@correo.com</li>
-            <li>mis ordenes</li>
-            <li>perfil</li>
-            <li>salir</li>
-
+            <li>
+                <NavLink to="/login">Iniciar sesión</NavLink>
+            </li>
+            <li>
+                <NavLink to="/register">Registrarse</NavLink>
+            </li>
+            <li>
+                <NavLink to="/cart">Carrito</NavLink>
+            </li>
+            <li>
+                <NavLink to="/profile">Perfil</NavLink>
+            </li>
         </ul>
         </nav>
+
+
     );
 }
 
