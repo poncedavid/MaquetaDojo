@@ -1,13 +1,25 @@
 //importando layout.
-
 import Layout from "../../Layout";
 
-function About(){
-     return (
-        <Layout>
-            <h1 className="  bg-red-500">About</h1>
-        </Layout>
-    );
+//importando componente.
+import Wrapper from "../../Components/Wrapper";
+
+function About() {
+  return (
+    <Layout>
+      <Wrapper
+        items={[
+          "something",
+          "sombrero",
+          "wholesome",
+          "ransom",
+          "apple",
+          "react",
+          "javascript",
+        ]}
+      />
+    </Layout>
+  );
 }
 
 export default About;

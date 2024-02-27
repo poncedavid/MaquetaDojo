@@ -44,9 +44,12 @@ npm install react-router-dom
  - Dentro del componente de navegación debemos importar NavLink from "react-router-dom"
 
 
+## Instalamos Axios para consumo de API'S
 
+```
+npm install axios
 
-
+```
 
 
 
